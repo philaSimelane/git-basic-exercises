@@ -1,0 +1,162 @@
+    1  pwd
+    2  ls
+    3  /Documents
+    4  cd Documents
+    5  mkdir Helllo
+    6  cd Hello
+    7  cd Helllo
+    8  cd ../
+    9  cd ../
+   10  cd /
+   11  cd Users
+   12  cd c
+   13  cd Users
+   14  cd ..c
+   15  cd ../
+   16  cd Program Files
+   17  cd ~
+   18  pwd
+   19  ls
+   20  cd home
+   21  cd ~
+   22  cd ../..
+   23  cd ~
+   24  ls -l
+   25  ls -lh
+   26  man ls
+   27  cd /
+   28  man ls
+   29  cd ~
+   30  cd Documents
+   31  rmdir Helllo
+   32  cd ../
+   33  cd Documents/
+   34  cd ~
+   35  nano README.md
+   36  mkdir myFolder
+   37  ls -a
+   38  cd myFolder
+   39  git init
+   40  ls -a
+   41  git status
+   42  touch README.md
+   43  ls -a
+   44  git add README.md
+   45  git status
+   46  git commit -m "initial commit"
+   47  git push origin master
+   48  cd ¬
+   49  cd ¬
+   50  cd~
+   51  cd ~ 
+   52  cd myFolder
+   53  ls
+   54  git log
+   55  nano README.md
+   56  git status
+   57  git commit -am "added some text"
+   58  git log
+   59  git checkout BoityK@LAPTOP-CKHUUDNU MINGW64 ~
+   60  $ cd myFolder
+   61  BoityK@LAPTOP-CKHUUDNU MINGW64 ~/myFolder (master)
+   62  $ ls
+   63  README.md
+   64  BoityK@LAPTOP-CKHUUDNU MINGW64 ~/myFolder (master)
+   65  $ git log
+   66  commit 27469c59bf4a5f7cddacbd0f7b11b0becbeaedd8 (HEAD -> master)
+   67  Author: philaSimelane <nokphilasimelane@gmail.com>
+   68  Date:   Mon Jun 28 20:53:40 2021 +0200
+   69      initial commit
+   70  BoityK@LAPTOP-CKHUUDNU MINGW64 ~/myFolder (master)
+   71  $ nano README.md
+   72  BoityK@LAPTOP-CKHUUDNU MINGW64 ~/myFolder (master)
+   73  $ git status
+   74  On branch master
+   75  Changes not staged for commit:
+   76    (use "git add <file>..." to update what will be committed)
+   77    (use "git restore <file>..." to discard changes in working directory)
+   78          modified:   README.md
+   79  no changes added to commit (use "git add" and/or "git commit -a")
+   80  BoityK@LAPTOP-CKHUUDNU MINGW64 ~/myFolder (master)
+   81  $ git commit -am "added some text"
+   82  warning: LF will be replaced by CRLF in README.md.
+   83  The file will have its original line endings in your working directory
+   84  [master 55724c9] added some text
+   85   1 file changed, 9 insertions(+)
+   86  BoityK@LAPTOP-CKHUUDNU MINGW64 ~/myFolder (master)
+   87  $ git log
+   88  commit 55724c94de1c5c5b1069dc1e899d41fdf766f71b (HEAD -> master)
+   89  Author: philaSimelane <nokphilasimelane@gmail.com>
+   90  Date:   Mon Jun 28 21:27:10 2021 +0200
+   91      added some text
+   92  commit 27469c59bf4a5f7cddacbd0f7b11b0becbeaedd8
+   93  Author: philaSimelane <nokphilasimelane@gmail.com>
+   94  Date:   Mon Jun 28 20:53:40 2021 +0200
+   95      initial commit
+   96  BoityK@LAPTOP-CKHUUDNU MINGW64 ~/myFolder (master)
+   97  $ git checkout
+   98  cd myFile
+   99  cd MYfOLDER
+  100  cd ../
+  101  cd myFolder
+  102  git log
+  103  ls
+  104  cat README
+  105  cd ~
+  106  cat README
+  107  cd myFolder
+  108  cat README.md
+  109  git branch
+  110  git checkout -b MilkFlavours
+  111  ls
+  112  nano flavours.txt
+  113  git status
+  114  git add flavours.txt
+  115  git commit -m "added flavours file"
+  116  git log
+  117  git checkout master 
+  118  git merge MilkFlavours 
+  119  ls
+  120  q
+  121  clear
+  122  cd ../
+  123  git clone https://github.com/Umuzi-org/tech-department
+  124  git init
+  125  git status
+  126  ls -a
+  127  touch README.md
+  128  ls -a
+  129  git status
+  130  git add README.md
+  131  git status
+  132  git commit -m "initial commit"
+  133  git log
+  134  nano README.md
+  135  cat README.md
+  136  git status
+  137  git commit -m "second commit"
+  138  git log
+  139  git add README.md
+  140  git commit -m "second commit"
+  141  git log
+  142  cat README
+  143  cat README.md
+  144  git status
+  145  git log
+  146  git log
+  147  git checkout 3cb699ec828a88eb8299aa81c503ebb91dd88bdc
+  148  cat README.md
+  149  git checkout master
+  150  cat README.md
+  151  git checkout -b milkshake-flavours
+  152  git branch
+  153  nano milkshakes.md
+  154  cat milkshakes.md
+  155  git status
+  156  git add milkshakes.md
+  157  git commit -m "added initial flavours"
+  158  git log
+  159  git branch
+  160  git checkout -b history
+  161  git branch
+  162  history > history.txt
